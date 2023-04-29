@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#Script to create a loop using until
+
+loopr=0
+until [ $loopr -gt 9 ]
+do
+echo "Best School"
+((loopr++))
+done
