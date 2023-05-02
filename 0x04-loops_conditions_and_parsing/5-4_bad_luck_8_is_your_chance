@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#Script that uses if, else and else if statements
+ctr=1
+while [ $ctr -le 10 ]
+do
+if [ $ctr -eq 4 ]
+then
+echo "bad luck"
+elif [ $ctr -eq 8 ]
+then
+echo "good luck"
+else
+echo "Best School"
+fi
+((ctr++))
+done

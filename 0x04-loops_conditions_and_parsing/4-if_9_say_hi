@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#Script that uses if statements
+
+loopr=1
+while [ $loopr -le 10 ]
+do
+echo "Best School"
+if [ $loopr -eq 9 ]
+then
+echo "Hi"
+fi
+((loopr++))
+done
