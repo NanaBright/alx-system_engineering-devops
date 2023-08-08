@@ -7,7 +7,8 @@ ensure => present.
 content =>"
 
 #SSH client configuration
-host"
+host*
 IdentifyFile ~/.ssh/school
 PasswordAuthentication no
+",
 }
